@@ -3,7 +3,7 @@ apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: GitRepository
 metadata:
   name: new-repository
-  namespace: hello
+  namespace: hihello
 spec:
   # The interval at which to check the upstream for updates
   interval: 1m
